@@ -1,4 +1,8 @@
-[terminal.shell]
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
+]
+
+[shell]
   program = "/bin/zsh"
 
 [font]
@@ -22,11 +26,4 @@ bindings = [
 [window]
 decorations = "Buttonless"
 padding = { x = 20, y = 20 }
-
-[general]
-import = [
-    "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
-]
-
-[terminal]
 
