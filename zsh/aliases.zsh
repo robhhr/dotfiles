@@ -14,6 +14,7 @@ alias dev='~/Developer/'
 alias htdocs='~/../../Applications/MAMP/htdocs'
 alias wpl='~/Local\ Sites'
 alias config='~/.config'
+alias nconf='nvim ~/.config/nvim/'
 
 # git
 alias g='git'
@@ -26,17 +27,8 @@ alias gcb='git checkout -b'
 alias gs='git status'
 alias gsw='git switch'
 
-# nvim
-alias n='nvim'
-alias nconf='nvim ~/.config/nvim/'
-alias nzsh='nvim ~/.zshrc'
-alias aliases='nvim ~/.zsh/aliases.zsh'
-
-# tmux
-alias t='tmux'
-alias tks='tmux kill-server'
-alias tx='tmuxinator'
-
 # misc
+alias t='tmux'
+alias n='nvim'
 alias weather="curl v2.wttr.in/${1:-Vancouver} --silent | less -S -R -#3"
 
